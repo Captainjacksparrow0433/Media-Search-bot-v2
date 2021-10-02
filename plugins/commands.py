@@ -27,7 +27,7 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**Please Join My Movie Channel to use this Bot!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/LXRYOUTUBERYT')
+                        InlineKeyboardButton('More Bots join bros channel', url='https://t.me/LXRYOUTUBERYT')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -82,7 +82,7 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join My Movie Channel to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -103,8 +103,8 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Source Code", url='https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-v2'),
                     ],
                    [
-                       InlineKeyboardButton("Update Channel", url='https://t.me/LXRYOUTUBERYT'),
-                       InlineKeyboardButton("Support Group", url='https://t.me/LXRBOTSGROUP'),
+                       InlineKeyboardButton("Join for latest movies", url='https://t.me/filmboxcommunity'),
+                       InlineKeyboardButton("movie channel", url='https://t.me/filmbox112'),
                     ],
                      [
                         InlineKeyboardButton("About", callback_data="about")
@@ -196,18 +196,18 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/LXRYOUTUBERYT'),
+            InlineKeyboardButton('join for latest movies', url='https://t.me/filmboxcommunity'),
             InlineKeyboardButton('Source Code', url='https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-v2')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/malayalammoviemmms'>꧁LXR=AMAL★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-V2'>Click here</a>\nUpdate Channel : <a href='https://t.me/LXRYOUTUBERYT'>LXRYOUTUBERYT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/Abintply'>꧁Abin★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-V2'>Click here</a>\nUpdate Channel : <a href='https://t.me/LXRYOUTUBERYT'>LXRYOUTUBERYT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 @Client.on_message(filters.command('help'))
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/LXRYOUTUBERYT'),
-            InlineKeyboardButton('Support Group', url='https://t.me/LXRBOTSGROUP')
+            InlineKeyboardButton('join for latest movies', url='https://t.me/filmboxcommunity'),
+            InlineKeyboardButton('Movies channel', url='https://t.me/filmbox112')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
