@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots join bros channel', url='https://t.me/LXRYOUTUBERYT')
+                        InlineKeyboardButton('📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('𝗙𝗢𝗥 𝗠𝗢𝗥𝗘 𝗠𝗢𝗩𝗜𝗘𝗦🎬', url='https://t.me/LXRYOUTUBERYT')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,15 +99,15 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Source Code", url='https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-v2'),
+                        InlineKeyboardButton('📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("📥𝗢𝗧𝗧 𝗠𝗢𝗩𝗜𝗘𝗦📥", url='https://t.me/filmbox112'),
                     ],
                    [
-                       InlineKeyboardButton("Join for latest movies", url='https://t.me/filmboxcommunity'),
-                       InlineKeyboardButton("movie channel", url='https://t.me/filmbox112'),
+                       InlineKeyboardButton("🔘 𝗝𝗢𝗜𝗡 𝗠𝗢𝗩𝗜𝗘𝗦 𝗚𝗥𝗢𝗨𝗣🔘", url='https://t.me/filmboxcommunity'),
+                       InlineKeyboardButton("🗽𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍🗽", url='https://t.me/Abintply'),
                     ],
                      [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("🗣️𝗔𝗕𝗢𝗨𝗧", callback_data="about")
                     ]
                 ]
             )
@@ -196,8 +196,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('join for latest movies', url='https://t.me/filmboxcommunity'),
-            InlineKeyboardButton('Source Code', url='https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-v2')
+            InlineKeyboardButton('🔘𝗝𝗢𝗜𝗡 𝗠𝗢𝗩𝗜𝗘𝗦 𝗚𝗥𝗢𝗨𝗣🔘', url='https://t.me/filmboxcommunity'),
+            InlineKeyboardButton('ℹ️𝙎𝙊𝙐𝙍𝘾𝙀 𝘾𝙊𝘿𝙀', url='https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-v2')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/Abintply'>꧁Abin★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-V2'>Click here</a>\nUpdate Channel : <a href='https://t.me/LXRYOUTUBERYT'>LXRYOUTUBERYT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -206,8 +206,8 @@ async def bot_info(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('join for latest movies', url='https://t.me/filmboxcommunity'),
-            InlineKeyboardButton('Movies channel', url='https://t.me/filmbox112')
+            InlineKeyboardButton('🔘𝗝𝗢𝗜𝗡 𝗠𝗢𝗩𝗜𝗘𝗦 𝗚𝗥𝗢𝗨𝗣🔘', url='https://t.me/filmboxcommunity'),
+            InlineKeyboardButton('𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟🔗', url='https://t.me/filmbox112')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
